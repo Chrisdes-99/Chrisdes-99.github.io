@@ -2,17 +2,20 @@
 
 <html>
   <head>
-    <title></title>
+    <title>Personal Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Christopher De Santiago" />
+    <meta http-equiv="content-type" content="text/html;charset = utf-8" />
   </head>
 
   <body>
-    <img src="Headshot.png" width="300" height="300" />
+    <img src="Headshot.png" alt="Headshot" width="300" height="300" />
 
     <!-- Main Header along with secondary header-->
 
-    <h1>Christopher De Santiago</h1>
+    <h1 id="name">Christopher De Santiago</h1>
 
-    <h2>Student at University of California, Riverside</h2>
+    <h2 id="me">Student at University of California, Riverside</h2>
 
     <!-- Social Media Link-->
 
@@ -20,16 +23,16 @@
 
     <!-- About Me section with header and information-->
 
-    <h3>About Me</h3>
+    <h3 id="about">About Me</h3>
     <p>
       I am a fifth year student currently studying Computer Science at the
-      University of California, Riverside. My current study of interests in
-      computer science are web development and databases.
+      University of California, Riverside. I have great interest in software and
+      web development with similiar interest in databases.
     </p>
 
     <!-- Work Experience Header and Table Information -->
 
-    <h3>Work Experience</h3>
+    <h3 id="work">Work Experience</h3>
     <table>
       <tr>
         <th>Ross Distribution Center</th>
@@ -63,7 +66,7 @@
     </table>
 
     <!-- Education Header and Table Information  -->
-    <h3>Education</h3>
+    <h3 id="education">Education</h3>
 
     <table>
       <tr>
@@ -93,7 +96,7 @@
 
     <!-- Relevant Coursework Information-->
 
-    <h3>Relevant Coursework</h3>
+    <h3 id="coursework">Relevant Coursework</h3>
     <ul>
       <li>CS 100</li>
       <li>CS 111</li>
@@ -101,9 +104,15 @@
       <li>ENGR 180W</li>
     </ul>
 
+    <p>
+      Note: Only upper division are listed as there are many lower division
+      courses.
+    </p>
+
     <!-- Skills-->
 
-    <h3>Skills</h3>
+    <h3 id="skills">Skills</h3>
+
     <ul>
       <li>C, C++, Java, Python, HTML, CSS , SQL</li>
       <li>Spring Boot</li>
@@ -112,10 +121,49 @@
 
     <!-- Project List -->
 
-    <h3>Projects</h3>
-    <ul>
-      <li>Tweet Searcher and Ranker</li>
-      <li>Social Media App</li>
-    </ul>
+    <h3 id="projects">Projects</h3>
+
+    <table>
+      <tr>
+        <th>Social Media Networking App</th>
+      </tr>
+      <tr>
+        <td>
+          A project created by my partner and I that allows new users to create
+          an account that allows them to send friend requests, view other user
+          profiles, and send messages as well as additional functionality
+          similiar to social media apps. Passwords, usernames, requests, and
+          messages were entered into a backend database. My contributions
+          include the functionality of reading/deleting messages, accept/reject
+          friend requests, send messages, view profiles, creating indexes for
+          sent messages, and a trigger that creates the index for each message.
+        </td>
+      </tr>
+
+      <tr>
+        <th>Tweet Searcher and Ranker</th>
+      </tr>
+      <tr>
+        <td>
+          A program that allows users to search for tweets kept inside a json
+          file. The top 10 most similiar tweets are displayed based on the
+          user's query. My contributions include creating indexes for all tweets
+          in json file and the searching/ranking algorithms to display and rank
+          the most relevant tweets.
+        </td>
+      </tr>
+
+      <tr>
+        <th>History of Horror Web Page</th>
+      </tr>
+
+      <tr>
+        <td>
+          An informational web page about the history of horror media. HTML and
+          CSS are used to create a clean and user friendly webpage. The parallax
+          effect is used to contribute to the page's interface.
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
