@@ -20,6 +20,7 @@
         <img
           src="images/Headshot.png"
           alt="Headshot"
+          id="HeadShot"
           width="200"
           height="200"
         />
@@ -51,6 +52,15 @@
                 src="images/envelope-free-icon-font-2.png"
                 width="40"
                 height="40"
+                id=""
+            /></a>
+          </p>
+
+          <p id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/christopher-de-santiago-a51266203/"
+              target="_blank"
+              ><img src="images/linkedin.png" width="40" height="40"
             /></a>
           </p>
         </div>
@@ -65,8 +75,12 @@
     <p>
       I am a fifth year student currently studying Computer Science at the
       University of California, Riverside. I have great interest in the fields
-      of software and web development with interest also in databases. Feel free
-      to email me using the icon for any inquiry.
+      of software and web development with interest also in databases. In my
+      free time, I love watching movies/tv shows, listening to music (my
+      favorite band is Nirvana) and watching my Giants take the field every
+      Sunday (Lakers and Dodgers too). Whenever I have the time and money, I
+      love to travel to meet new people and explore different places. During my
+      travels, I've been to France, Spain, Germany, and Portugal.
     </p>
 
     <br />
@@ -182,18 +196,10 @@
       </li>
       <ul style="list-style-type: disc">
         <li>
-          User info (password,username,requests,messages) entered into backend
-          databases
+          User password,username,requests,messages entered into backend database
         </li>
-        <li>Worked on allowing users to read,delete, and/or send messages</li>
-        <li>
-          Implemented the friend request system, accept or reject, and view
-          other user profiles
-        </li>
-        <li>
-          Created indexes for sent messages by implementing a trigger every time
-          a message was entered in database
-        </li>
+        <li>Worked on the message and friend request functionalities</li>
+        <li>Implemented trigger to create an index for each message</li>
       </ul>
 
       <br />
@@ -206,12 +212,15 @@
       </li>
       <ul style="list-style-type: disc">
         <li>
-          Worked with Lucene (java) to create indexes for each object (tweet) in
-          JSON file
+          Used
+          <a href="https://lucene.apache.org/core/" target="_blank" id="lucene"
+            >Lucene</a
+          >
+          (java) to create indexes for each object (tweet) in JSON file
         </li>
         <li>
-          Created search and ranking algorithms to display the 10 most relevant
-          tweets based on user query
+          Created search/rank algorithms to show the 10 most relevant tweets
+          based on user query
         </li>
       </ul>
 
