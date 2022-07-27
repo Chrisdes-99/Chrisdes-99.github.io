@@ -28,7 +28,7 @@
         />
       </div>
 
-      <!----- Main Header along with secondary header ----->
+      <!-------- Main Header along with secondary header -------->
 
       <div class="text">
         <h1 id="name">Christopher De Santiago</h1>
@@ -42,7 +42,7 @@
               target="_blank"
               id="social_link"
               ><img
-                src="images/instagram-free-icon-font.png"
+                src="/images/instagram-free-icon-font.png"
                 width="40"
                 height="40"
             /></a>
@@ -54,7 +54,6 @@
                 src="images/envelope-free-icon-font-2.png"
                 width="40"
                 height="40"
-                id=""
             /></a>
           </p>
 
@@ -71,12 +70,12 @@
 
     <div class="parallax"></div>
 
-    <!----- About Me section with header and information ----->
+    <!-------- About Me section with header and information -------->
 
     <div class="About">
-      <h3>About Me</h3>
+      <h3 id="AboutMe">About Me</h3>
 
-      <hr />
+      <hr class="AboutLine" />
 
       <p>
         I am a fifth year student currently studying Computer Science at the
@@ -94,7 +93,7 @@
 
     <div class="parallax"></div>
 
-    <!----- Work Experience Header and Table Information ----->
+    <!-------- Work Experience Header and Table Information -------->
 
     <div class="WorkExp">
       <h3 id="work">Work Experience</h3>
@@ -137,7 +136,7 @@
 
     <div class="parallax"></div>
 
-    <!----- Education Header and Table Information  ----->
+    <!-------- Education Header and Table Information  -------->
 
     <div class="Education">
       <h3 id="education">Education</h3>
@@ -170,28 +169,29 @@
 
     <div class="parallax"></div>
 
-    <!----- Relevant Coursework Information ----->
+    <!-------- Relevant Coursework Information -------->
 
     <div class="Class">
       <h3 id="coursework">Relevant Coursework</h3>
 
       <hr />
+
       <ul>
-        <li>CS 100</li>
-        <li>CS 111</li>
-        <li>CS 166</li>
-        <li>ENGR 180W</li>
+        <li>ENGR 180W - Technical Communications</li>
+        <li>CS 100 - Software Construction</li>
+        <li>CS 111 - Discrete Structures</li>
+        <li>CS 166 - Databases</li>
       </ul>
 
-      <p>
-        <b>Note</b>: Only upper division are listed as there are many lower
-        division courses.
+      <p style="text-align: center">
+        <span style="color: rgb(4, 0, 255)">Note</span> : Only upper division
+        are listed as there are many lower division courses.
       </p>
     </div>
 
     <div class="parallax"></div>
 
-    <!----- Skills ----->
+    <!-------- Skills -------->
 
     <div class="Skill">
       <h3 id="skills">Skills</h3>
@@ -200,14 +200,14 @@
 
       <ul>
         <li>C, C++, Java, Python, HTML, CSS , SQL</li>
-        <li>Spring Boot</li>
         <li>Github, IntelliJ, Atom</li>
+        <li>Spring Boot</li>
       </ul>
     </div>
 
     <div class="parallax"></div>
 
-    <!----- Project List ----->
+    <!-------- Project List -------->
 
     <div class="Project">
       <h3 id="projects">Projects</h3>
@@ -215,55 +215,25 @@
       <hr />
 
       <ul>
-        <!-- first list -->
-
         <li>
-          <b>Social Media Networking App</b>
+          <u>Social Media Networking App</u> : Allows users to create and use an
+          account to send/reject friend requests, view/delete/send messages, and
+          view profiles
         </li>
-        <ul style="list-style-type: disc">
-          <li>
-            User password,username,requests,messages entered into backend
-            database
-          </li>
-          <li>Worked on the message and friend request functionalities</li>
-          <li>Implemented trigger to create an index for each message</li>
-        </ul>
-
-        <br />
 
         <!----- Next list ----->
 
         <li>
-          <b>Tweet Searcher</b>
+          <u>History of Horror Web Page</u> : Learn about the history of horror
+          media by going through each of era of horror
         </li>
-        <ul style="list-style-type: disc">
-          <li>
-            Used
-            <a
-              href="https://lucene.apache.org/core/"
-              target="_blank"
-              id="lucene"
-              >Lucene</a
-            >
-            (java) to create indexes for each object (tweet) in JSON file
-          </li>
-          <li>
-            Created search/rank algorithms to show the 10 most relevant tweets
-            based on user query
-          </li>
-        </ul>
-
-        <br />
 
         <!----- final list ----->
 
         <li>
-          <b>History of Horror Web Page</b>
+          <u>Tweet Searcher</u> : Search for tweets and the closest related
+          tweets are displayed based on the query
         </li>
-        <ul style="list-style-type: disc">
-          <li>Uses common HTML, CSS concepts to create web page</li>
-          <li>Uses parallax for an interesting visual effect</li>
-        </ul>
       </ul>
     </div>
 
