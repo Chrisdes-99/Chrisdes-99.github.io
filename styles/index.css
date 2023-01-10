@@ -1,14 +1,69 @@
-body,html{
-  height: 100%;
-  width: 100%;
-  background-color: black;
+html, body {
+  margin:0;
+  padding:0;
+  }
+
+.flex-container {
+  display: flex;
 }
+
+.flex-container-school,.flex-container-project {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+
+.college,.project{
+  flex: 1;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  border-radius: 100px;
+
+  /*From : https://getcssscan.com/css-box-shadow-examples*/
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+}  
+
+.skill{
+  flex:1;
+  text-align: center;
+  border: 2.5px black solid;
+  border-radius: 40px;
+}
+
+.framework{
+  text-align: center;
+  border: 2.5px black solid;
+  border-radius: 40px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.college:first-child,.skill:first-child,.project:first-child {
+  margin-right: 20px;
+}
+
+.school {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 /* The parallax effect's components */
 
 .parallax{
-  background-image: url('/images/pexels-quang-nguyen-vinh-2131614.jpg');
-  height: 32%;
+  background-image: url('/images/360_F_500982846_jo2Fce5rRacxIsX0nHJgoJLrwBm572xA.jpg');
+  min-height: 100%;
+  min-width: 100%;
 
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -27,15 +82,15 @@ body,html{
   .intro{
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: aliceblue;
+    background-color: white;
   }
 
   #name{
-    color: rgb(0,64,153);
+    color: rgb(0, 0, 0);
   }
   
   #me{
-    color:black;
+    color:rgb(116, 116, 116);
   }
 
   .text,.headshot{
@@ -56,18 +111,13 @@ body,html{
   }
 
 
-  h3 {
-    color: white;
-    text-align: center;
-    font-weight:bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
-
   /* Changes the font and font weight of any text outside a table or list */
 
   p {
-    font-family: serif;
-    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.9;
+    text-indent: 5px;
   }
 
   /* Eliminates two lines throughout the table, setting a solid border throughout the table. Different fonts for th and td */
@@ -76,55 +126,41 @@ body,html{
   th,
   td {
     border-collapse: collapse;
-    border: 2px black solid;
-    font-weight: bolder;
-    padding: 5px;
+    border: none;
     font-family: serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  td{
+    padding: 30px;
   }
 
   th{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
   }
 
   ul {
-    list-style-type: square;
-    font-family: serif;
-    font-weight: bolder;
-    text-align: center;
-    list-style:inside ;
+    list-style-type:disc;
   }
 
   /* Similiar to the other sections but the About section has a simple background, different header color, and horizonal line color */
 
-  .About{
-    background-color: aliceblue;
-    text-align: center;
-    padding: 15px;
+  div{
+    background-color: white;
+    width: auto;
+    padding: 15px 1px 15px 1px;
+    border-radius: 5px;
   }
 
- #AboutMe{
-    color: rgb(0,64,153);
+  h3{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
   /* Sets a gradient background, aligns text, and leaves space between content and the edge of the section */
-
-  .WorkExp,.Education{
-    text-align: center;
-    padding: 15px;
-    background-image: linear-gradient(rgb(0, 64, 153),rgb(231,231,231) 50%);
-    border-top:1px solid black;
-    border-bottom: 1px solid black;
-  }
-
-  /* The same as above but can't align text as the lists will become clunky*/
-
-  .Class,.Skill,.Project{
-    padding: 15px;
-    background-image: linear-gradient(rgb(0, 64, 153),rgb(231,231,231) 50%);
-    border-top:1px solid black;
-    border-bottom: 1px solid black;
-  }
 
   /* Centers the education table */
 
@@ -135,11 +171,23 @@ body,html{
 
   li{
     padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
   }
 
   hr{
-    border: 2px white solid;
+    border: 1.5px  solid;
   }
-  hr.AboutLine{
-    border: 2px rgb(0,64,153) solid;
+
+  footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  .About{
+    background-color: black;
+  }
+
+  .AboutMe{
+    color: white;
   }
