@@ -32,6 +32,7 @@ html, body {
   text-align: center;
   border: 2.5px black solid;
   border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .framework{
@@ -42,6 +43,7 @@ html, body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -190,4 +192,8 @@ html, body {
 
   .AboutMe{
     color: white;
+  }
+
+  .WorkExp,.Skill{
+
   }
