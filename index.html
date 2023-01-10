@@ -5,6 +5,7 @@
     <title>Christopher De Santiago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
+    <script src="portfolio.js"></script>
     <meta charset="UTF-8" />
 
 
@@ -25,10 +26,16 @@
   <!----- Beginning of Body Section ----->
 
   <body>
-    <div class="parallax"></div>
+
+    <!--<a target="_blank" href="https://icons8.com/icon/32309/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/YRRhCXfA0Vd0/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/60443/linkedin-circled">LinkedIn Circled</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a href="https://www.flaticon.com/free-icons/framework" title="framework icons">Framework icons created by Eucalyp - Flaticon</a>
+    <a target="_blank" href="https://icons8.com/icon/kHuiIhMAoLCp/online-coding">Online Coding</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/33278/compare-git">Compare Git</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
 
     <!-- A div called intro containing the headshot,h1,h2, and social link. These elements are side by side -->
-
+    <div class = "body">
     <div class="intro">
       <!----- Headshot ----->
 
@@ -47,7 +54,7 @@
       <div class="text">
         <h1 id="name">Christopher De Santiago</h1>
 
-        <h2 id="me">CS Student @ University of California, Riverside</h2>
+        <h2 id="me">Computer Science Graduate @ University of California, Riverside</h2>
 
         <div class="icons">
           <p id="social">
@@ -56,18 +63,9 @@
               target="_blank"
               id="social_link"
               ><img
-                src="/images/instagram-free-icon-font.png"
-                width="40"
-                height="40"
-            /></a>
-          </p>
-
-          <p id="email">
-            <a href="mailto:desantiagochris18@gmail.com"
-              ><img
-                src="images/envelope-free-icon-font-2.png"
-                width="40"
-                height="40"
+                src="/images/icons8-instagram-50.png"
+                width="50"
+                height="50"
             /></a>
           </p>
 
@@ -75,47 +73,70 @@
             <a
               href="https://www.linkedin.com/in/christopher-de-santiago-a51266203/"
               target="_blank"
-              ><img src="images/linkedin.png" width="40" height="40"
+              ><img src="images/icons8-linkedin-circled-50.png" width="50" height="50"
+            /></a>
+          </p>
+
+          <p id="email">
+            <a href="mailto:desantiagochris18@gmail.com"
+              ><img
+                src="images/icons8-mail-50.png"
+                width="50"
+                height="50"
             /></a>
           </p>
         </div>
       </div>
     </div>
 
-    <div class="parallax"></div>
+    <br>
+
 
     <!-------- About Me section with header and information -------->
 
     <div class="About">
-      <h3 id="AboutMe">About Me</h3>
+      <h2 class="AboutMe"><u>About Me</u></h3>
 
-      <hr class="AboutLine" />
-
-      <p>
-        I am a fifth year student currently studying Computer Science at the
-        University of California, Riverside. I have great interest in the fields
-        of software and web development with interest also in databases. In my
-        free time, I love watching movies/tv shows, listening to music (my
-        favorite band is Nirvana) and watching my Giants take the field every
-        Sunday (Lakers and Dodgers too). Whenever I have the time and money, I
-        love to travel to meet new people and explore different places. During
-        my travels, I've been to France, Spain, Germany, and Portugal.
+      <p class ="AboutMe">
+        I am a recently graduated Computer Science at the University of California, Riverside. 
+        During my studies, I grew a passion for web development as I love creating websites 
+        to make accessible and interactive experiences for all users. I also found to have a 
+        passion for data analysis as we can learn so much from data and do great, helpful things from analyzing data.
+        I have experience in web and database development from my time in UCR.
+        <br><br> 
+        When I'm away from my computer, I watch my favorite football team, the New York Giants, 
+        take the field on Sundays. Being born in L.A, I'm a fan of the Dodgers and Lakers as well. As also part of my spare time, I love to
+        play video games from first person shooters to story-driven games. I also love discovering music, old and new. When I have the time and money,
+        I love to travel the world to discover new places and gain new experiences.   
       </p>
 
-      <br />
-    </div>
 
-    <div class="parallax"></div>
+      <br />
+      <br>
+    </div>
+    <br>
 
     <!-------- Work Experience Header and Table Information -------->
 
     <div class="WorkExp">
-      <h3 id="work">Work Experience</h3>
+      <h2 id="work"><u>Experience</u></h3>
 
-      <hr />
       <br />
+      <br>
 
       <table>
+        <tr>
+          <th>UCR Study Abroad</th>
+          <th>CS France FLEAP Member</th>
+          <th>July 2022 - August 2022</th>
+        </tr>
+        <tr>
+          <td colspan="3">
+            Created a functioning website in a group setting while meeting tight deadlines and adjusting to a new
+            environment. Learned the bussiness aspects of pitching a new website idea and learning fundamentals of web developments
+            in learning frameworks, CSS, HTML and Javascript.
+          </td>
+        </tr>
         <tr>
           <th>Ross Distribution Center</th>
           <th>Utility</th>
@@ -148,109 +169,148 @@
       </table>
     </div>
 
-    <div class="parallax"></div>
+    <br>
 
     <!-------- Education Header and Table Information  -------->
 
-    <div class="Education">
-      <h3 id="education">Education</h3>
+    <div class="Education" style="background-color: black;">
+      <h2 id="education" style="color: white;"><u>Education</u></h2>
 
-      <hr />
-      <br />
 
-      <table id="EdTable">
-        <tr>
-          <th colspan="2">University of California, Riverside</th>
-        </tr>
-        <tr>
-          <td>Bachelor of Science, Computer Science</td>
-          <td>October 2020 - Present</td>
-        </tr>
+      <div class="flex-container-school">
 
-        <tr>
-          <th colspan="2">Mt. San Jacinto Community College</th>
-        </tr>
-        <tr>
-          <td>Associate of Science, Mathematics and Computer Science</td>
-          <td>August 2017 - May 2020</td>
-        </tr>
-        <tr>
-          <td>Associate of Arts, Mathematics</td>
-          <td>August 2017 - May 2020</td>
-        </tr>
-      </table>
+        <div class="college UCR">
+         <!--<img src="images/UCR.jpeg"alt = "UCR" width="100" height="100" class = "school">-->
+          <h3>University of California, Riverside</h3>
+          <p> On the foundation of concepts from lower division classes, I continued with upper division concepts 
+            such as advanced data structures, operating systems, compilers, and computer systems. I also worked
+            in many team projects to design projects in both front-end and back-end.
+            <br><br> <span style="font-weight: bold;">Degree(s)</span>: B.A in Science, Computer Science
+            <br> <span style="font-weight: bold;">Tenure</span>:September 2020 - December 2022
+          </p>
+        </div>
+        
+        <div class="college MSJC">
+          <!--<img src="images/MSJC.jpg" alt="MSJC" width="100" height="100" class="school">-->
+          <h3>Mount San Jacinto Community College</h3>
+          <p>Began with learning the basics of programming languages, 
+            basic data structures, and discrete structures. I also learned important math and physics concepts
+            that where fundamental for computer science.
+            <br><br> <span style="font-weight: bold;">Degree(s)</span>: A.A in Science, Mathematics and Computer Science
+            <br> <span style="font-weight: bold;">Tenure</span>:August 2017 - May 2020 
+          </p>
+        </div>
+        
+      </div>
+
+      <br>
+      <br>
+
     </div>
-
-    <div class="parallax"></div>
-
-    <!-------- Relevant Coursework Information -------->
-
-    <div class="Class">
-      <h3 id="coursework">Relevant Coursework</h3>
-
-      <hr />
-
-      <ul>
-        <li>ENGR 180W - Technical Communications</li>
-        <li>CS 100 - Software Construction</li>
-        <li>CS 111 - Discrete Structures</li>
-        <li>CS 166 - Databases</li>
-      </ul>
-
-      <p style="text-align: center">
-        <span style="color: rgb(4, 0, 255)">Note</span> : Only upper division
-        are listed as there are many lower division courses.
-      </p>
-    </div>
-
-    <div class="parallax"></div>
+   
+    <br>
 
     <!-------- Skills -------->
 
     <div class="Skill">
-      <h3 id="skills">Skills</h3>
+      <h2 id="skills"><u>Skills</u></h3>
 
-      <hr />
+        <div class="flex-container">
 
-      <ul>
-        <li>C, C++, Java, Python, HTML, CSS , SQL</li>
-        <li>Github, IntelliJ, Atom</li>
-        <li>Spring Boot</li>
-      </ul>
+          <div class="skill PL">
+            <img src="images/Programming.png"alt = "UCR" width="50" height="50" class = "school">
+            <h3 id="SkillHeader">Programming Languages</h3>
+            <p>
+              Profienct in programming languages such as C, C++, Java, Javascript, and Python. Also procient
+              in SQL for data and database related software. HTML for front-end development.
+            </p>
+          </div>
+          
+          <div class="skill Git">
+            <img src="images/VersionControl.png" alt="MSJC" width="50" height="50" class="school">
+            <h3 id="SkillHeader">Version Control</h3>
+            <p>
+              Proficent and good knowledge in the version control system Git and its hosting service GitHub.
+            </p>
+          </div>
+          
+        </div>
+
+          <div class="framework">
+            <img src="images//framework.png"alt = "UCR" width="50" height="50" class = "school">
+            <h3 id="SkillHeader">Frameworks/Libraries & Knowledge</h3>
+            <p>Familair or Profienct in these frameworks & libraries and obtained knowledge through experience.</p>
+            <ul>
+              <li>Vuejs</li>
+              <li>Django</li>
+              <li>jQuery</li>
+              <li>Springboot</li>
+              <li>Data Structures</li>
+              <li>Web Development</li>
+              <li>Database Development</li>
+              <li>Technical Communication</li>
+            </ul>
+            </div>
+
+        </div>
     </div>
-
-    <div class="parallax"></div>
+  
+    <br>
 
     <!-------- Project List -------->
 
-    <div class="Project">
-      <h3 id="projects">Projects</h3>
+    <div class="Project" style="background-color: black;">
+      <h2 id="projects" style="color: white;"><u>Projects</u></h2>
 
-      <hr />
+      <div class="flex-container-project">
 
-      <ul>
-        <li>
-          <u>Social Media Networking App</u> : Allows users to create and use an
-          account to send/reject friend requests, view/delete/send messages, and
-          view profiles
-        </li>
+      <div class="project 1">
+        <h3>Hark</h3>
+        <p>A website that allows users to send audio bits to friends based on that day's prompts. This
+          allows friends to stay in touch in a unqiue way<br><br>
+          <span style="font-weight: bold; font-size: smaller;"><a href>Github Page</a></span> </p>
+      </div>
 
-        <!----- Next list ----->
+      <div class="project 2">
+        <h3>Social Media Project</h3>
+        <p>A social media application that lets users to add friends and send messages to friends. 
+          Uses SQL and Java. <br><br>
+          <span style="font-weight: bold; font-size: smaller;"><a href>Github Page</a></span> </p>
+      </div>
 
-        <li>
-          <u>History of Horror Web Page</u> : Learn about the history of horror
-          media by going through each of era of horror
-        </li>
+      </div>
 
-        <!----- final list ----->
+      <div class="flex-container-project">
 
-        <li>
-          <u>Tweet Searcher</u> : Search for tweets and the closest related
-          tweets are displayed based on the query
-        </li>
-      </ul>
+
+      <div class="project 3">
+        <h3>History of Horror Page</h3>
+        <p>A page using web development components that shows the history of horror media.<br><br>
+          <span style="font-weight: bold; font-size: smaller;"><a href>Github Page</a></span> </p>
+      </div>
+
+      <div class="project 4">
+        <h3>Tweet Searcher</h3>
+        <p>An application that indexes, ranks and displays documents (tweets) 
+          based on user search input using the Lucene library<br><br>
+          <span style="font-weight: bold; font-size: smaller;"><a href>Main Source Code</a></span> </p>
+      </div>
+
+      </div>
+
+      <br>
+      <br>
     </div>
 
-    <div class="parallax"></div>
+    </div>
+
+    <br>
+
+    <p id="time" onload="refreshTime()"></p>
+    <script src="portfolio.js"></script>
+
+
+    <br>
+
   </body>
 </html>
