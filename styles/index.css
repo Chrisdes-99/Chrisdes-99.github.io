@@ -1,15 +1,21 @@
 html, body {
   margin:0;
   padding:0;
+  height: 100%;
   }
 
 .flex-container {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 
 .flex-container-school,.flex-container-project {
   display: flex;
   background-color: rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .college,.project{
@@ -20,7 +26,9 @@ html, body {
 
   /*From : https://getcssscan.com/css-box-shadow-examples*/
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 
   padding-left: 5px;
   padding-right: 5px;
@@ -30,22 +38,28 @@ html, body {
 .skill{
   flex:1;
   text-align: center;
-  border: 2.5px black solid;
+  padding-left: 5px;;
+  padding-right: 5px;
   border-radius: 40px;
+  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .framework{
   text-align: center;
-  border: 2.5px black solid;
+  padding-left: 5px;;
+  padding-right: 5px;
   border-radius: 40px;
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
 }
 
 
-.college:first-child,.skill:first-child,.project:first-child {
+.college:first-child,.skill:first-child,.project:first-child,.intro:first-child {
   margin-right: 20px;
 }
 
@@ -54,6 +68,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
@@ -73,17 +88,12 @@ html, body {
 
 /* Components of the intro section including h1, h2, headshot, and icon links wrapped in a div class */
 
-.intro,.icons{
+.icons{
   align-items:center;
   justify-content: center;
   display:flex;
   }
 
-  .intro{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: white;
-  }
 
   #name{
     color: rgb(0, 0, 0);
@@ -116,8 +126,7 @@ html, body {
   p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    line-height: 1.9;
-    text-indent: 5px;
+    line-height: 1;
   }
 
   /* Eliminates two lines throughout the table, setting a solid border throughout the table. Different fonts for th and td */
@@ -150,8 +159,7 @@ html, body {
 
   div{
     background-color: white;
-    width: auto;
-    padding: 15px 1px 15px 1px;
+    padding: 15px 0px 15px 0px;
     border-radius: 5px;
   }
 
@@ -190,4 +198,6 @@ html, body {
 
   .AboutMe{
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
   }
