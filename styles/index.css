@@ -1,6 +1,7 @@
 html, body {
   margin:0;
   padding:0;
+  height: 100%;
   }
 
 .flex-container {
@@ -9,11 +10,12 @@ html, body {
   padding-right: 15px;
 }
 
+
 .flex-container-school,.flex-container-project {
   display: flex;
   background-color: rgb(0, 0, 0);
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .college,.project{
@@ -57,7 +59,7 @@ html, body {
 }
 
 
-.college:first-child,.skill:first-child,.project:first-child {
+.college:first-child,.skill:first-child,.project:first-child,.intro:first-child {
   margin-right: 20px;
 }
 
@@ -66,6 +68,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
@@ -85,17 +88,12 @@ html, body {
 
 /* Components of the intro section including h1, h2, headshot, and icon links wrapped in a div class */
 
-.intro,.icons{
+.icons{
   align-items:center;
   justify-content: center;
   display:flex;
   }
 
-  .intro{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: white;
-  }
 
   #name{
     color: rgb(0, 0, 0);
@@ -128,8 +126,7 @@ html, body {
   p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    line-height: 1.9;
-    text-indent: 5px;
+    line-height: 1;
   }
 
   /* Eliminates two lines throughout the table, setting a solid border throughout the table. Different fonts for th and td */
@@ -162,7 +159,6 @@ html, body {
 
   div{
     background-color: white;
-    width: auto;
     padding: 15px 0px 15px 0px;
     border-radius: 5px;
   }
@@ -202,8 +198,6 @@ html, body {
 
   .AboutMe{
     color: white;
-  }
-
-  .WorkExp,.Skill{
-
+    padding-left: 15px;
+    padding-right: 15px;
   }
