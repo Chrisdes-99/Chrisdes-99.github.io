@@ -1,8 +1,15 @@
-html, body {
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
   margin:0;
   padding:0;
   height: 100%;
   }
+
+body{
+  height: 100vh;
+}
 
 .flex-container {
   display: flex;
@@ -13,7 +20,8 @@ html, body {
 
 .flex-container-school,.flex-container-project {
   display: flex;
-  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  background-color: rgb(20, 105, 112);
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -28,12 +36,20 @@ html, body {
 
   /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
 
-  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;*/
 
-  padding-left: 5px;
-  padding-right: 5px;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-}  
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+
+.project{
+  margin:10px;
+  background-color: whitesmoke;
+}
+
 
 .skill{
   flex:1;
@@ -42,7 +58,9 @@ html, body {
   padding-right: 5px;
   border-radius: 40px;
   /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: whitesmoke;
 }
 
 .framework{
@@ -50,23 +68,33 @@ html, body {
   padding-left: 5px;;
   padding-right: 5px;
   border-radius: 40px;
-  width: 50%;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
   /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: whitesmoke;
 }
 
 
-.college:first-child,.skill:first-child,.project:first-child,.intro:first-child {
+.college:first-child,.skill:first-child{
   margin-right: 20px;
 }
 
-.school {
+.hs {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+.headshot{
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 
@@ -100,33 +128,25 @@ html, body {
   }
   
   #me{
-    color:rgb(116, 116, 116);
-  }
-
-  .text,.headshot{
-    margin-left:30px;
+    color:rgb(20, 105, 112);
   }
 
   #email,#linkedin,#social{
     margin-left: 20px;
   }
 
-  #HeadShot{
-    border-radius: 20px;
-  }
-
   h1,h2 {
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
   }
 
 
   /* Changes the font and font weight of any text outside a table or list */
 
   p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
-    line-height: 1;
+    line-height: 2;
   }
 
   /* Eliminates two lines throughout the table, setting a solid border throughout the table. Different fonts for th and td */
@@ -136,10 +156,13 @@ html, body {
   td {
     border-collapse: collapse;
     border: none;
-    font-family: serif;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
     line-height: 1.8;
+  }
+
+  table{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   td{
@@ -147,8 +170,9 @@ html, body {
   }
 
   th{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
 
   ul {
@@ -165,7 +189,7 @@ html, body {
 
   h3{
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
   }
 
   /* Sets a gradient background, aligns text, and leaves space between content and the edge of the section */
@@ -179,7 +203,7 @@ html, body {
 
   li{
     padding-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: smaller;
   }
 
@@ -188,16 +212,50 @@ html, body {
   }
 
   footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
   }
 
-  .About{
-    background-color: black;
+  .About,.Project,.Education{
+    background-color: rgb(20, 105, 112);
+    width: 100%;
+  }
+
+  .AboutMe,#education{
+    font-weight: bold;
+    color: white;
   }
 
   .AboutMe{
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-right:20px;
+    padding-left: 20px;
   }
+
+  /*
+  .intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .Intro{
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 5px 0px 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 10px;
+  }
+*/
+
+/*
+.text,.Skill,.WorkExp{
+  
+}
+
+.body{
+  
+}
+*/

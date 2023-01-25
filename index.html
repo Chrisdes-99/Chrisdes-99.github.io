@@ -38,19 +38,21 @@
     <div class = "body">
       <!----- Headshot ----->
 
-      <!--<div class="intro headshot">
+      <div class="headshot">
         <img
           src="images/Headshot.png"
           alt="Headshot"
-          id="HeadShot"
           width="250"
           height="250"
+          class="hs"
         />
-      </div>-->
+      </div>
+
 
       <!-------- Main Header along with secondary header -------->
 
-      <div class=" intro text">
+
+      <div class="text">
         <h1 id="name">Christopher De Santiago</h1>
 
         <h2 id="me">Computer Science Graduate @ University of California, Riverside</h2>
@@ -87,12 +89,11 @@
         </div>
       </div>
 
-    <br>
-
+      <br>
 
     <!-------- About Me section with header and information -------->
 
-    <div class=" About">
+    <div class="About">
 
       <br>
 
@@ -116,8 +117,8 @@
       <br>
     </div>
 
-
     <br>
+
 
     <!-------- Work Experience Header and Table Information -------->
 
@@ -179,11 +180,11 @@
 
     <!-------- Education Header and Table Information  -------->
 
-    <div class="Education" style="background-color: black;">
+    <div class="Education">
 
       <br>
 
-      <h2 id="education" style="color: white;"><u>Education</u></h2>
+      <h2 id="education"><u>Education</u></h2>
 
 
       <div class="flex-container-school">
@@ -191,23 +192,29 @@
         <div class="college UCR">
          <!--<img src="images/UCR.jpeg"alt = "UCR" width="100" height="100" class = "school">-->
           <h3>University of California, Riverside</h3>
-          <p> On the foundation of concepts from lower division classes, I continued with upper division concepts 
+
+          <p> Continuing on concepts from lower division classes, I continued with upper division concepts 
             such as advanced data structures, operating systems, compilers, and computer systems. I also worked
-            in many team projects to design projects in both front-end and back-end.
-            <br><br> <span style="font-weight: bold;">Degree(s)</span>: B.A in Science, Computer Science
-            <br> <span style="font-weight: bold;">Tenure</span>:September 2020 - December 2022
-          </p>
+            in many team projects to design projects in both front-end and back-end.</p><br>
+
+            <p><span style="font-weight: bold;">Degree</span>: B.A in Science, Computer Science
+              <br> <span style="font-weight: bold;">Tenure</span>: September 2020 - December 2022
+            </p>
+
         </div>
         
         <div class="college MSJC">
           <!--<img src="images/MSJC.jpg" alt="MSJC" width="100" height="100" class="school">-->
           <h3>Mount San Jacinto Community College</h3>
+
           <p>Began with learning the basics of programming languages, 
             basic data structures, and discrete structures. I also learned important math and physics concepts
-            that where fundamental for computer science.
-            <br><br> <span style="font-weight: bold;">Degree(s)</span>: A.A in Science, Mathematics and Computer Science
-            <br> <span style="font-weight: bold;">Tenure</span>:August 2017 - May 2020 
-          </p>
+            that were partially fundamental for some computer science concepts.</p><br>
+
+            <p>
+              <span style="font-weight: bold;">Degrees</span>: A.A in Science, Mathematics and Computer Science
+              <br> <span style="font-weight: bold;">Tenure</span>: August 2017 - May 2020 
+              </p>
         </div>
         
       </div>
@@ -273,7 +280,7 @@
 
     <!-------- Project List -------->
 
-    <div class="Project" style="background-color: black;">
+    <div class="Project">
 
       <br>
 
@@ -291,14 +298,13 @@
       <div class="project 2">
         <h3>Social Media Project</h3>
         <p>A social media application that lets users to add friends and send messages to friends. 
-          Uses SQL and Java. <br><br>
+          Uses SQL and Java for data grabbing and displaying <br><br>
           <span style="font-weight: bold; font-size: smaller;"><a href>Github Page</a></span> </p>
       </div>
 
       </div>
 
       <div class="flex-container-project">
-
 
       <div class="project 3">
         <h3>History of Horror Page</h3>
@@ -315,21 +321,14 @@
 
       </div>
 
-      <br>
-      <br>
     </div>
-
-    </div>
-
-  </div>
 
     <br>
 
     <p id="time" onload="refreshTime()"></p>
     <script src="portfolio.js"></script>
 
-
-    <br>
+  </div>
 
   </body>
 </html>
