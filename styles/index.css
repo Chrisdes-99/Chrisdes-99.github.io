@@ -77,8 +77,8 @@ footer{
   background-color: whitesmoke;
 }
 
-/* Div for first two skills  within container*/
-.skill{
+/* Div for skills  within container*/
+.skill,.framework{
   flex:1;
   text-align: center;
   padding-left: 5px;;
@@ -90,21 +90,12 @@ footer{
   background-color: whitesmoke;
 }
 
-/* Single div for last skill within container*/
+/* centers framework skill div*/
 .framework{
-  text-align: center;
-  padding-left: 5px;;
-  padding-right: 5px;
-  border-radius: 40px;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
-  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
-
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: whitesmoke;
 }
 
 /* Space between divs for school and skill divs within container */ 
