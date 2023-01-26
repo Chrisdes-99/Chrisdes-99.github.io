@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+/* --------------- Page Component Design -------------- */
+
 html{
   margin:0;
   padding:0;
@@ -11,13 +14,33 @@ body{
   height: 100vh;
 }
 
+div{
+  background-color: white;
+  padding: 15px 0px 15px 0px;
+  border-radius: 5px;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  line-height: 2;
+}
+
+footer{
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+/* -------------------- Flex Container Components ------------------- */
+
+/* Main Container */
 .flex-container {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-
+/* Flex Container for school and project sections */
 .flex-container-school,.flex-container-project {
   display: flex;
   justify-content: center;
@@ -26,6 +49,7 @@ body{
   padding-right: 20px;
 }
 
+/* Divs within container for school and project sections */
 .college,.project{
   flex: 1;
   text-align: center;
@@ -50,7 +74,7 @@ body{
   background-color: whitesmoke;
 }
 
-
+/* Div for first two skills  within container*/
 .skill{
   flex:1;
   text-align: center;
@@ -63,6 +87,7 @@ body{
   background-color: whitesmoke;
 }
 
+/* Single div for last skill within container*/
 .framework{
   text-align: center;
   padding-left: 5px;;
@@ -79,11 +104,37 @@ body{
   background-color: whitesmoke;
 }
 
-
+/* Space between divs for school and skill divs within container */ 
 .college:first-child,.skill:first-child{
   margin-right: 20px;
 }
 
+/* Design for title section and about section components.... and everything else needing similiar design to about */
+
+/* Places icons on one single line */
+.icons{
+  align-items:center;
+  justify-content: center;
+  display:flex;
+  }
+
+  /* Changes h2 color in title section */
+  #me{
+    color:rgb(20, 105, 112);
+  }
+
+  /* Space between icons, title page */
+  #email,#linkedin,#social{
+    margin-left: 20px;
+  }
+
+  /* Font/place change for first three headers */
+  h1,h2,h3 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  /* Design for headshot picture */
 .hs {
   display: block;
   margin-left: auto;
@@ -92,65 +143,26 @@ body{
   background-color: aliceblue;
   border-radius: 50px;
 }
-.headshot{
-  border-radius: 50%;
-  overflow: hidden;
+
+.About,.Project,.Education{
+  background-color: rgb(20, 105, 112);
+  width: 100%;
+}
+
+.AboutMe,#education{
+  font-weight: bold;
+  color: white;
+}
+
+.AboutMe{
+  padding-right:20px;
+  padding-left: 20px;
 }
 
 
+  /* -------------- Experience Table -------------------- */
 
-
-
-/* The parallax effect's components */
-
-.parallax{
-  background-image: url('/images/360_F_500982846_jo2Fce5rRacxIsX0nHJgoJLrwBm572xA.jpg');
-  min-height: 100%;
-  min-width: 100%;
-
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-/* Components of the intro section including h1, h2, headshot, and icon links wrapped in a div class */
-
-.icons{
-  align-items:center;
-  justify-content: center;
-  display:flex;
-  }
-
-
-  #name{
-    color: rgb(0, 0, 0);
-  }
-  
-  #me{
-    color:rgb(20, 105, 112);
-  }
-
-  #email,#linkedin,#social{
-    margin-left: 20px;
-  }
-
-  h1,h2 {
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-  }
-
-
-  /* Changes the font and font weight of any text outside a table or list */
-
-  p {
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    line-height: 2;
-  }
-
-  /* Eliminates two lines throughout the table, setting a solid border throughout the table. Different fonts for th and td */
-
+  /* Sets look for overall table */ 
   table,
   th,
   td {
@@ -161,44 +173,34 @@ body{
     line-height: 1.8;
   }
 
+  /* Sets a shadow to entire table */ 
   table{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
+  /* Space away from border for table info */ 
   td{
     padding: 30px;
   }
 
+  /* Sets shadow and text design for table header */ 
   th{
     font-family: 'Source Code Pro', monospace;
     font-weight: bolder;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
 
-  ul {
-    list-style-type:disc;
-  }
-
-  /* Similiar to the other sections but the About section has a simple background, different header color, and horizonal line color */
-
-  div{
-    background-color: white;
-    padding: 15px 0px 15px 0px;
-    border-radius: 5px;
-  }
-
-  h3{
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-  }
-
-  /* Sets a gradient background, aligns text, and leaves space between content and the edge of the section */
-
-  /* Centers the education table */
-
+  /* Centers table */ 
   #EdTable{
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+  /* -------------------- List Design ---------------------- */
+
+  ul {
+    list-style-type:disc;
   }
 
   li{
@@ -207,55 +209,3 @@ body{
     font-size: smaller;
   }
 
-  hr{
-    border: 1.5px  solid;
-  }
-
-  footer{
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-  }
-
-  .About,.Project,.Education{
-    background-color: rgb(20, 105, 112);
-    width: 100%;
-  }
-
-  .AboutMe,#education{
-    font-weight: bold;
-    color: white;
-  }
-
-  .AboutMe{
-    padding-right:20px;
-    padding-left: 20px;
-  }
-
-  /*
-  .intro-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
-  .Intro{
-    flex: 1;
-    width: 100%;
-    min-height: 100vh;
-    padding: 0px 5px 0px 5px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 10px 0px 10px;
-  }
-*/
-
-/*
-.text,.Skill,.WorkExp{
-  
-}
-
-.body{
-  
-}
-*/
