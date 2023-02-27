@@ -28,17 +28,37 @@ p {
   text-align: center;
 }
 
+.education{
+  background-color: #1F2937;
+  color: white;
+  padding: 20px 20px 55px 20px;
+}
+
+.education-school{
+  background-color: white;
+  color: #1F2937;
+}
+
+.education-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 20px;
+}
+
 .skill-grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
-  margin:20px;
+  margin:20px 20px 100px 20px;
   column-gap: 20px;
   row-gap: 50px;
+  justify-content: center;
 }
 
 .skill-grid > .skill-type{
-  border-radius: 15px;
+  border-radius: 30px;
+  padding-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projects{
@@ -120,5 +140,5 @@ li{
 /* Responsive Changes */
 
 @media (max-width: 1000px) {
-  .tabs { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
+  .tabs,.skill-grid { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
 }
