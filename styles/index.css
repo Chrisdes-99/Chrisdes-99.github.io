@@ -28,28 +28,106 @@ p {
   text-align: center;
 }
 
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.about{
+  background-color: #1F2937;
+  color: white;
+  padding: 50px;
+  line-height: 2;
+}
+
+.name > h2{
+  color:grey
+}
+
+.experience{
+  margin-top: 50px;
+}
+
+.experience-grid{
+  display: grid;
+  grid-template-columns: repeat(1,.5fr);
+  grid-template-rows:repeat(2,.5fr) ;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.experience-type{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#expParagraph{
+  line-height: 2;
+}
+
+.experience-type-2{
+  box-shadow: none;
+  font-weight: bold;
+}
+
+
+ul{
+  line-height: 2;
+}
+
+/*  */
+
 .education{
   background-color: #1F2937;
   color: white;
-  padding: 20px 20px 55px 20px;
+  padding:50px;
 }
+
+/* School Cards */
 
 .education-school{
   background-color: white;
   color: #1F2937;
+  border-radius: 15px;
+  padding: 20px;
 }
+
+/* School Cards Container (Grid) */
 
 .education-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 20px;
+  padding: 50px 50px 70px 50px 
+}
+
+.coursework-containe{
+  display: flex;
+}
+
+.coursework{
+  flex: 1;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.skills{
+  margin:70px 50px 70px 50px;
 }
 
 .skill-grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
-  margin:20px 20px 100px 20px;
   column-gap: 20px;
   row-gap: 50px;
   justify-content: center;
@@ -137,8 +215,36 @@ li{
   list-style-type:square;
 }
 
+.contact{
+  padding: 20px;
+}
+
+.website-links{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2,.3fr);
+  grid-template-rows: repeat(2,.3fr);
+  column-gap: 10px;
+}
+
+.contact > a{
+  color: blue;
+}
+
+.contact > a:hover{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.contact > a:visited{
+  color: blue;
+}
+
+
+
 /* Responsive Changes */
 
 @media (max-width: 1000px) {
-  .tabs,.skill-grid { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
+  .tabs,.skill-grid,.education-grid { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
 }
