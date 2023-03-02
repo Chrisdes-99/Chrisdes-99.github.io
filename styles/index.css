@@ -43,8 +43,10 @@ p {
   line-height: 2;
 }
 
+
+
 .name > h2{
-  color:grey
+  color:rgb(82, 82, 82)
 }
 
 .experience{
@@ -106,17 +108,18 @@ ul{
   padding: 50px 50px 70px 50px 
 }
 
-.coursework-containe{
-  display: flex;
+.coursework-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(1,.5fr);
+  grid-template-rows: repeat(1,.5fr);
 }
 
 .coursework{
-  flex: 1;
   background-color: white;
   color: black;
   padding: 20px;
-  width: 50%;
-  margin: auto;
   border-radius: 30px;
 }
 
@@ -126,8 +129,8 @@ ul{
 
 .skill-grid{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3,.25fr);
+  grid-template-rows: repeat(2,.25fr);
   column-gap: 20px;
   row-gap: 50px;
   justify-content: center;
@@ -246,5 +249,5 @@ li{
 /* Responsive Changes */
 
 @media (max-width: 1000px) {
-  .tabs,.skill-grid,.education-grid { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
+  .tabs,.skill-grid,.education-grid,.website-links { grid-template-columns: repeat(1, 1fr); row-gap: 20px; }
 }
