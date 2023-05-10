@@ -1,0 +1,26 @@
+.education{
+    background-color: rgb(29, 29, 29);
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.education-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.edu{
+    background-color: rgb(40, 40, 40);
+    padding: 40px;
+    border-radius: 100px;
+}
+
+p{
+    font-weight: bold;
+}
+
