@@ -1,0 +1,14 @@
+.Projects{
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(2,.5fr);
+    gap: 100px;
+    margin-top: 50px;
+}

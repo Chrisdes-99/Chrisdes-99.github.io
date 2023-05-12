@@ -1,8 +1,9 @@
 .education{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(20, 20, 20);
     padding: 50px;
     text-align: center;
     color: white;
+    min-height: 100vh;
 }
 
 .education-grid{
@@ -12,15 +13,18 @@
     margin-bottom: 50px;
     justify-items: center;
     align-items: center;
+    row-gap: 100px;
 }
 
-.edu{
-    background-color: rgb(40, 40, 40);
-    padding: 40px;
-    border-radius: 100px;
+.edu-1{
+    text-align: start;
 }
 
 p{
     font-weight: bold;
+}
+
+span{
+    color: red;
 }
 

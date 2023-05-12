@@ -1,7 +1,10 @@
 import './App.css';
-import Navbar from './Navbar'
-import Header from './Heading'
-import Education from './Education'
+import Navbar from './Components/Navbar'
+import Header from './Components/Heading'
+import Education from './Components/Education'
+import Experience from './Components/Experience';
+import ProjectBoard from './Components/Project';
+
 
 function App() {
   return (
@@ -9,6 +12,8 @@ function App() {
       <Navbar></Navbar>
       <Header></Header>
       <Education></Education>
+      <Experience></Experience>
+      <ProjectBoard></ProjectBoard>
     </div>
   );
 }

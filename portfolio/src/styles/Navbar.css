@@ -4,18 +4,19 @@
     position: fixed;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(20, 20, 20);
     padding: 20px;
     column-gap: 100px;
     color: white;
     font-weight: bold;
     width: 100%;
+    border-bottom: 2px solid black;
 }
 
 #CD{
     border-radius: 100px;
     float:inline-start;
-    margin-left: 115px;
+    margin-left: 120px;
 }
 
  a{
