@@ -12,3 +12,11 @@
     gap: 100px;
     margin-top: 50px;
 }
+
+img{
+    border: 1px solid black;
+}
+
+#seeMore{
+    border-radius: 5px;
+}

@@ -5,8 +5,8 @@ export default function Heading(){
     return(
         <div className="heading-grid">
             <div className="me">
-                <h1>Hello, I'm Chris</h1>
-                <p>I'm a recent Computer Science from the 
+                <h1>Hello, I'm <span style={{color:'rgb(249, 175, 37)'}}>Chris</span></h1>
+                <p>I'm a recent Computer Science graduate from the 
                     University of California, Riverside. I love coming up 
                     with new ideas and translating them into software.</p>
                 <p>During my studies, I found a passion for web development. 

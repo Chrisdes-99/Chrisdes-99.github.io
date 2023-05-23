@@ -30,6 +30,10 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 #contact{
     background-color: black;
     color: white;

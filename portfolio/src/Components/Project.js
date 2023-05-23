@@ -13,10 +13,31 @@ export default function ProjectBoard(){
             <div className="project-grid">
                 <Project name={"Rock, Paper, Scissors"} description={"A simple interface and game functionality of the Rock, Paper, Scissors game. It displays the round results, scores, and winner of the entire game."} alt={"RPS"} image={rps}></Project>
                 <Project name={"Weather Application"} description={"An single page application that allows users to enter a location by city name to get the location's current weather. Uses the API from WeatherAPI.com to get up-to-date weather info."} alt={"RPS"} image={weather}></Project>
+                
+                <span id="moreProjects" style={{display:"none"}}>
                 <Project name={"ToDo Board"} description={"A simple application that posts tasks entered by users. The tasks' priority level, due date, and optional notes are displayed."} image={todo} alt={"TODO List"}></Project>
                 <Project name={"Landing Page"} description={"A landing page of a mock website idea. Also includes mock login and sign up pages."} image={landing} alt={"Landing Page"}></Project>
+                </span>
             </div>
+            <button id="seeMore"> See More </button>
         </div>
     )
 }
 
+const seeMore = document.getElementById("seeMore");
+
+seeMore.addEventListener('click', (e)=>{
+    e.preventDefault();
+    showProjects();
+})
+
+function showProjects(){
+    const moreProjects = document.getElementById("moreProjects");
+
+    if(moreProjects.style.display === 'none'){
+        moreProjects.style.display = 'grid';
+    }
+    else{
+        moreProjects.style.display = "none";
+    }
+}

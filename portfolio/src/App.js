@@ -4,6 +4,7 @@ import Header from './Components/Heading'
 import Education from './Components/Education'
 import Experience from './Components/Experience';
 import ProjectBoard from './Components/Project';
+import Skills from './Components/Skills';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Education></Education>
       <Experience></Experience>
       <ProjectBoard></ProjectBoard>
+      <Skills></Skills>
     </div>
   );
 }

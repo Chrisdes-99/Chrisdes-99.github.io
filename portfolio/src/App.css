@@ -7,6 +7,18 @@
   font-family: 'Phudu', cursive;
 }
 
+h1{
+  color: rgb(254, 177, 33);
+}
+
+h2{
+  text-decoration: underline;
+  color: white;
+}
+p{
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
