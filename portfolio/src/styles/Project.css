@@ -1,0 +1,34 @@
+.Projects{
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.project-grid,#moreProjects{
+    display: grid;
+    grid-template-columns: repeat(2,.5fr);
+    gap: 100px;
+    margin-top: 50px;
+}
+
+img{
+    border: 1px solid black;
+}
+
+#seeMore{
+    border-radius: 5px;
+}
+
+.site{
+    color: rgb(254, 177, 33);
+}
+
+.site:hover{
+    color: white;
+}
+
+.site:visited{
+    color: rgb(254, 177, 33);
+}
