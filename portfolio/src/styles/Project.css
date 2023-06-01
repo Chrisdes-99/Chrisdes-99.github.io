@@ -6,7 +6,7 @@
     min-height: 100vh;
 }
 
-.project-grid{
+.project-grid,#moreProjects{
     display: grid;
     grid-template-columns: repeat(2,.5fr);
     gap: 100px;
@@ -19,4 +19,16 @@ img{
 
 #seeMore{
     border-radius: 5px;
+}
+
+.site{
+    color: rgb(254, 177, 33);
+}
+
+.site:hover{
+    color: white;
+}
+
+.site:visited{
+    color: rgb(254, 177, 33);
 }
