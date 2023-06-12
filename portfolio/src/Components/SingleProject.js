@@ -1,4 +1,7 @@
-export default function Project({name,description,image,alt,site}){
+
+
+export default function Project({progress,name,description,image,alt,site}){
+
     return(
         <>
         <div className="project">

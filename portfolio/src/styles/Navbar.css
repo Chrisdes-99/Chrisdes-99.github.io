@@ -10,13 +10,13 @@
     color: white;
     font-weight: bold;
     width: 100%;
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid black;
 }
 
 #CD{
     border-radius: 100px;
     float:inline-start;
-    margin-left: 120px;
+    margin-left: 115px;
 }
 
  a{
@@ -31,7 +31,7 @@
 }
 
 a:hover{
-    color: orange;
+    color: rgb(211, 211, 211);
 }
 
 .navList{

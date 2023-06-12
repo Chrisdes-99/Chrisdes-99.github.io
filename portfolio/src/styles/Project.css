@@ -3,13 +3,13 @@
     padding: 50px;
     text-align: center;
     color: white;
-    min-height: 100vh;
 }
 
 .project-grid,#moreProjects{
     display: grid;
     grid-template-columns: repeat(2,.5fr);
-    gap: 100px;
+    column-gap: 200px;
+    row-gap: 300px;
     margin-top: 50px;
 }
 
@@ -19,16 +19,21 @@ img{
 
 #seeMore{
     border-radius: 5px;
+    margin-top: 50px;
 }
 
 .site{
-    color: rgb(254, 177, 33);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .site:hover{
     color: white;
+    background-color: rgb(199, 199, 199);
 }
 
 .site:visited{
-    color: rgb(254, 177, 33);
+    color: black;
 }

@@ -1,4 +1,22 @@
+.Skills{
+    margin-top: 50px;
+}
+
+.skill > p{
+    color: blue;
+}
+
 .skill-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.skill{
+    background-color: whitesmoke;
+    border-radius: 100px;
+    color: black;
+    /*box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;*/
 }
