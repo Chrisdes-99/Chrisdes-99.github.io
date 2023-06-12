@@ -24,7 +24,11 @@ p{
     font-weight: bold;
 }
 
-span{
-    color: rgb(248, 181, 59)
+
+
+.recieved{
+    width: 20%;
+    display: block;
+    margin: auto;
 }
 

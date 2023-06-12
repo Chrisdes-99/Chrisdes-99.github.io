@@ -12,6 +12,9 @@
     column-gap: 50px;
 }
 
+p{line-height: 1.5;
+word-spacing: 2px;}
+
 .buttons{
     display: grid;
     grid-template-columns: repeat(2,.25fr);
@@ -25,7 +28,7 @@ button{
     background-color: rgb(255, 255, 255);
     color:black;
     border: 2px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     font-family: 'Phudu', cursive;
     font-weight: bold;
 }
@@ -36,10 +39,17 @@ button:hover{
 
 #contact{
     background-color: black;
-    color: white;
+    color: rgb(255, 253, 253);
     border: 2px solid white;
 }
 
 .headshot > img{
     border-radius: 100px;
+}
+
+#nameSpan{
+    color:black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
 }
