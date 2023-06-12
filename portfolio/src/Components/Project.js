@@ -29,7 +29,7 @@ export default function ProjectBoard(){
                 <Project progress ={'Completed'} name={"Rock, Paper, Scissors"} alt={"RPS"} image={rps} site={'https://chrisdes-99.github.io/TOP-RPS/'}></Project>
                 <Project progress ={'Completed'} name={"Weather Application"} alt={"RPS"} image={weather} site={'https://chrisdes-99.github.io/WeatherApp/'}></Project>
                 </div>
-                
+                <br></br>
                 <span id="moreProjects" style={{display:'none'}}>
                 <Project  progress ={'Completed'}  image={todo}  name={"ToDo Board"} alt={"TODO List"} site={'https://chrisdes-99.github.io/TODO-List-Revised/'}></Project>
                 <Project progress ={'In Progress'} name={"Landing Page"} image={landing} alt={"Landing Page"} site={'https://chrisdes-99.github.io/TOP-LandingPage/'}></Project>

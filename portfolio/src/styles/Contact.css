@@ -1,0 +1,44 @@
+.Contact{
+    color: black;
+    background-color: rgb(20,20,20);
+    padding: 40px;
+}
+
+.input-Grid{
+    display: grid;
+    grid-template-columns: repeat(1,.5fr);
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 50px;
+}
+
+input{
+    padding: 5px;
+}
+
+.input{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.info{
+    background-color: white;
+    padding: 30px;
+    color: black;
+    border-radius: 5px;
+}
+
+.icon-grid{
+    display: grid;
+    grid-template-columns: repeat(3,.2fr);
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border: none;
+}
+
+
