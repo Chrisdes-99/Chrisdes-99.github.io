@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.16f772dc.css",
-    "main.js": "./static/js/main.3436413f.js",
-    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
-    "static/media/Headshot.png": "./static/media/Headshot.50ec1a840aaafa2110c6.png",
-    "static/media/WeatherApp.png": "./static/media/WeatherApp.a831756300366bb09799.png",
-    "static/media/LandingPage.png": "./static/media/LandingPage.ca2dfa27cc8d8858d971.png",
-    "static/media/TODO.png": "./static/media/TODO.c46c23437787daf6b898.png",
-    "static/media/RPS.png": "./static/media/RPS.43648c5579fed4aef27d.png",
-    "static/media/CD(2).png": "./static/media/CD(2).0931d08ddb272f578b48.png",
-    "index.html": "./index.html",
-    "main.16f772dc.css.map": "./static/css/main.16f772dc.css.map",
-    "main.3436413f.js.map": "./static/js/main.3436413f.js.map",
-    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.81d6c02d.css",
+    "main.js": "/static/js/main.612b2cdc.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Headshot.png": "/static/media/Headshot.50ec1a840aaafa2110c6.png",
+    "static/media/WeatherApp.png": "/static/media/WeatherApp.a831756300366bb09799.png",
+    "static/media/LandingPage.png": "/static/media/LandingPage.ca2dfa27cc8d8858d971.png",
+    "static/media/TODO.png": "/static/media/TODO.c46c23437787daf6b898.png",
+    "static/media/RPS.png": "/static/media/RPS.43648c5579fed4aef27d.png",
+    "static/media/CD(2).png": "/static/media/CD(2).0931d08ddb272f578b48.png",
+    "index.html": "/index.html",
+    "main.81d6c02d.css.map": "/static/css/main.81d6c02d.css.map",
+    "main.612b2cdc.js.map": "/static/js/main.612b2cdc.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16f772dc.css",
-    "static/js/main.3436413f.js"
+    "static/css/main.81d6c02d.css",
+    "static/js/main.612b2cdc.js"
   ]
 }
