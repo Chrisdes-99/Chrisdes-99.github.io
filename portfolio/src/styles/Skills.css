@@ -1,16 +1,24 @@
 .Skills{
-    margin-top: 50px;
+    padding: 50px;
+}
+
+.Skills > h1{
+    text-align: center;
 }
 
 .skill > p{
     color: blue;
 }
 
+.Skills > h2{
+    color: white;
+}
+
 .skill-grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,.2fr);
     gap: 30px;
-    margin: 50px;
+    margin: 60px;
     padding: 20px;
 }
 
@@ -18,5 +26,12 @@
     background-color: whitesmoke;
     border-radius: 100px;
     color: black;
+    text-align: center;
     /*box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;*/
 }
+
+@media (max-width: 2000px) {
+    .skill-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
